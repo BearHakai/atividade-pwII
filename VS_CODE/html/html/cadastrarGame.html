@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+    <nav class="navbar">
+        <img src="../img/logo.png" alt="logo" class="logo">
+        <a href="../index.html"><h3>Home Page</h3></a>
+        <a href="./login.html"><h3>Login</h3></a>
+        <a href="./cadastro.html"><h3>Cadastrar</h3></a>
+        <img src="../img/lupa.png" alt="pesquisa-lupa" class="icon-lupa">
+        <input type="text" class="pesquisa">
+    </nav>
+    </div>
+    <div class="container" onsubmit="cadastroGame(event)">
+        <center>
+        <br>
+        <h1>Cadastrar Jogo</h1>
+        <br><br>
+        <input type="text" name="nome-jogo" id="nome-jogo" placeholder="Nome do Jogo:">
+        <br><br>
+        <input type="email" name="email-developer" id="email-dev" placeholder="example@gmail.com">
+        <br><br>
+        <input type="text" name="descricao" id="desc" placeholder="Descicao" minlength="3">
+        <br><br>
+        <input type="submit" value="Cadastrar" class="btn" id="btn_cadastro" onclick="cadastroGame(); return false;">
+        </center>
+        </div>
+    </div>
+</body>
+</html>

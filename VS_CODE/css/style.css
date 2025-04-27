@@ -1,0 +1,50 @@
+.header{
+    background-color: lightsteelblue;
+    max-width: 100%;
+}
+.navbar{
+    padding: 1%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon-lupa{
+    height: 2%;
+    width: 2%;
+}
+.logo{
+    height: 5%;
+    width: 5%;
+}
+a{
+    color: black;
+}
+.pesquisa{
+    height: 50%;
+    border-radius: 8%;
+}
+body{
+    background-color: cadetblue;
+}
+.container{
+    margin: 1% 15%;
+    padding: 1%;
+    background-color: rgb(108, 108, 231);
+    max-width: 80%;
+    border-radius: 5%;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    color: black;
+}
+
+.container input{
+    border-radius: 5px;
+}
