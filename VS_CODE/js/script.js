@@ -1,5 +1,5 @@
 function logar(event) {
-    event.preventDefault();
+    //event.preventDefault();
 
     var usuario = document.getElementById('nome').value;
     var senha = document.getElementById('senha').value;
@@ -39,7 +39,7 @@ function logar(event) {
 }
 
 function cadastro(event) {
-    event.preventDefault();
+    //event.preventDefault();
 
     var usuario = document.getElementById('nome').value;
     var senha = document.getElementById('senha').value;
@@ -80,10 +80,10 @@ function cadastro(event) {
 }
 
 function cadastroGame(event) {
-    event.preventDefault();
+    //event.preventDefault();
 
     var jogo = document.getElementById('nome-jogo').value;
-    var contato = document.getElementById('email-developer').value;
+    var contato = document.getElementById('email-dev').value;
 
     if (jogo != "" && contato != "") {
         Swal.fire({
